@@ -4,5 +4,7 @@
 
 def roll
   # code goes here
-  return rand(1..6)
+  arr = [1, 2, 3 , 4 , 5 , 6]
+  dr = rand(1..6)
+  return arr
 end
