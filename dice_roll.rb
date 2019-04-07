@@ -6,5 +6,5 @@ def roll
   # code goes here
   arr = [1, 2, 3 , 4 , 5 , 6]
   dr = rand(1..6)
-  return arr[rand(length())]
+  return arr[rand(0..arr.length)]
 end
